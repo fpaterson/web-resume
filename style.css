@@ -60,7 +60,7 @@ header, footer {
 
 /*HEADER*/
 .profile-img {
-    border-radius: 10px;
+    border-radius: 50%;
 }
 header h1, header h2 {
     color: #EDF2F4;
