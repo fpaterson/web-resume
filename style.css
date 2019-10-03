@@ -29,6 +29,16 @@ h2 {
     font-size: 40px;
     margin-top: 0;
 }
+
+h3 {
+    margin: 0;
+}
+
+.titulo-generico {
+    font-family: "Open Sans. sans-serif";
+    margin-bottom: 16px;
+}
+
 a {
     color: #EF233C;
 }
@@ -36,20 +46,27 @@ a {
 a:hover {
     text-decoration: none;
 }
+
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
     padding: 50px;
-    overflow:auto;
+    overflow:auto;   
 }
+
 .col-narrow {
     width: 30%;
     float: left;
 }
+
 .col-wide {
     width: 70%;
     float: left;
     padding-left: 20px;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 /*HEADER AND FOOTER*/
@@ -75,10 +92,30 @@ footer {
     padding: 40px;
     display: inline-block;
 }
+
+/* WORK EXPERIENCE*-------*/
 .work {
     background: #EDF2F4;
 }
 
+h3 ~ p {
+    margin: 0;
+}
+
+.job-description {
+    scroll-margin-bottom: 24px;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+/* EDUCATION -------*/
 .education {
     background: #8D99AE;
 }
+
+p + h3 {
+    margin-top: 32px;
+}
+/*---------------------*/
