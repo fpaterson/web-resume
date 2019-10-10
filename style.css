@@ -36,7 +36,6 @@ h3 {
 
 .profesion {
     margin: 48px 0 40px;
-
 }
 
 a {
@@ -50,7 +49,7 @@ a:hover {
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 60px 50px;
     overflow:auto;   
 }
 
@@ -69,6 +68,14 @@ a:hover {
     text-transform: uppercase;
 }
 
+.btn {
+    text-decoration: none;
+    background: #EF233C;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
 /*HEADER AND FOOTER*/
 header, footer {
     background: #2B2D42;
@@ -76,12 +83,42 @@ header, footer {
 }
 
 /*HEADER*/
+
+header {
+    padding-top: 50px;
+    position: relative;
+}
+
 .profile-img {
     border-radius: 50%;
 }
 header h1, header h2 {
     color: #EDF2F4;
     margin: 0;
+}
+
+.download {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+/* nav bar ------*/
+
+nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 /* footer*/
